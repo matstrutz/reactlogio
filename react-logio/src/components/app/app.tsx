@@ -11,7 +11,9 @@ const App = () => {
         return () => clearInterval(interval);
     }, []);
 
-    return <Wrapper>
+    const sec: number = Number(seconds.slice(-2));
+
+    return <Wrapper sec={sec}>
         <Container>
             <DataComponent>
                 { seconds }
