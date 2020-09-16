@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     height: 100vh;
-    /* background-image: linear-gradient(to bottom, rgb(0,200,255), rgb(255,255,255)); */
+    /* background-image: linear-gradient(to bottom, rgb(251,100,1), rgb(251,150,5), rgb(224,226,122), rgb(255,255,255)); */
     background-image: linear-gradient(to bottom, rgb(${props => props.sec}, ${props => props.sec * 2}, ${props => props.sec * 3}), rgb(255,255,255));
     display: flex;
     justify-content: center;
