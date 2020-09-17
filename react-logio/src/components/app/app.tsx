@@ -15,7 +15,7 @@ const App = () => {
     const min: number = Number(seconds.substring(2,4));
     const hrs: number = Number(seconds.substring(0,2));
 
-    return <Wrapper sec={sec} min={min} hrs={hrs}>
+    return <Wrapper min={min} hrs={hrs}>
         <Container>
             <DataComponent>
                 { seconds }
